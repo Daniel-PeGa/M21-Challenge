@@ -17,7 +17,7 @@ type User {
     username: String
     email: String
     bookCount: Int
-    savedBooks: [Boook]
+    savedBooks: [Book]
 }
 type Query {
     me: user
